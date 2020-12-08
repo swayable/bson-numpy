@@ -102,7 +102,7 @@ def setup_package():
     with open('README.rst') as f:
         readme_content = f.read()
 
-    build_requires = ["numpy>=1.17.0"]
+    build_requires = ["numpy==1.19.4"]
     tests_require = build_requires + ["pymongo>=3.9.0,<4"]
     install_requires = build_requires + ["pymongo>=3.6.0,<4"]
 
